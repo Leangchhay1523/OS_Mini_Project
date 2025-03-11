@@ -27,6 +27,7 @@ cd OS_Mini_Project
 git checkout -b branch_name
 ```
 > Branch Name Convention: your_name/your_task
+> Example: john/navigation
 - Create a new scrpt in ``src`` folder
 - Work on your task
   
