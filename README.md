@@ -19,13 +19,13 @@ The bash program contains the following features:
 Mini_Project/
 ├── public                # Storing assets
 ├── src/                  # Storing source codes
-│   ├── list_details.sh   # List all files and directories
-│   ├── backup.sh         # Backup of individual files and entire directories
-│   ├── count_files.sh    # Count number of files in a given directory
-│   ├── disk_uasge.sh     # Display disk usage of a given directory
-│   ├── search_file.sh    # Search for a given file or directory
-│   ├── compress.sh       # Compress a given file or directory
-│   ├── user_log.sh       # Store user performance
+│   ├── list_details.sh   # 1. List all files and directories
+│   ├── backup.sh         # 2. Backup of individual files and entire directories
+│   ├── count_files.sh    # 3. Count number of files in a given directory
+│   ├── disk_uasge.sh     # 4. Display disk usage of a given directory
+│   ├── search_file.sh    # 5. Search for a given file or directory
+│   ├── compress.sh       # 6. Compress a given file or directory
+│   ├── user_log.sh       # 7. Store user performance, write script to store user actions in `script.log`
 │   ├── script.log        # Log file to store all actions of users
 │   └── main.sh           # Main file to run all the scripts
 └── README.md             # Project documentation
