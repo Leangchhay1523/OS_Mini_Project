@@ -55,6 +55,7 @@ cd OS_Mini_Project
 git checkout -b branch_name
 ```
 > Branch Name Convention: your_name/your_task
+> Example: john/navigation
 - Create a new scrpt in ``src`` folder
 - Work on your task
   
@@ -80,9 +81,3 @@ git push origin your_branch_name
 - Click on it, and fill it your Pull Request Title and Description. Detail about what you have done
 - Then `Create Pull Request`
 - Ask someone to review and approve your PR
-
-## Contributors
-- [Leangchhay1523](https://github.com/leangchhay1523)
-- [PunleuTY](https://github.com/PunleuTY)
-- [Sitharath-s](https://github.com/Sitharath-s)
-- [SreyMey]()
