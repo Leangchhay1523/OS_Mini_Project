@@ -1,7 +1,35 @@
 # Mini Project: File and Directory Management Program
 ## Project Overview
+The **"File and Directory Management Program"** is a bash script that helps users manage files and directories easily. The program is easy to used and work on any system that support bash.
+
+## Key Features
+The bash program contains the following features:
+1. List all files and sub-directories with detailed information of a given directory or file.
+2. Create backups of individual files and entire directories.
+   - Ask user input for the location of individual files or directories
+   - Ask user input for the location of backup
+3. Count the number of files in a directory of a given directory
+4. Display disk usage of a given directory.
+5. Search for a file by name or extension of a given directory.
+6. Compress the given files or directories.
+7. Keep a log file of all actions performed by users in a file called script.log in the same directory where you run the program.
 
 ## Project Structure
+```
+Mini_Project/
+├── public                # Storing assets
+├── src/                  # Storing source codes
+│   ├── list_details.sh   # List all files and directories
+│   ├── backup.sh         # Backup of individual files and entire directories
+│   ├── count_files.sh    # Count number of files in a given directory
+│   ├── disk_uasge.sh     # Display disk usage of a given directory
+│   ├── search_file.sh    # Search for a given file or directory
+│   ├── compress.sh       # Compress a given file or directory
+│   ├── user_log.sh       # Store user performance
+│   ├── script.log        # Log file to store all actions of users
+│   └── main.sh           # Main file to run all the scripts
+└── README.md             # Project documentation
+```
 
 ## Getting Started
 Ensure that you have git command on your machine
@@ -52,3 +80,9 @@ git push origin your_branch_name
 - Click on it, and fill it your Pull Request Title and Description. Detail about what you have done
 - Then `Create Pull Request`
 - Ask someone to review and approve your PR
+
+## Contributors
+- [Leangchhay1523](https://github.com/leangchhay1523)
+- [PunleuTY](https://github.com/PunleuTY)
+- [Sitharath-s](https://github.com/Sitharath-s)
+- [SreyMey]()
