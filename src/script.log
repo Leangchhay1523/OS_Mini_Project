@@ -1,0 +1,36 @@
+Fri, Mar 21, 2025 11:15:22 PM: User started listing details for: ../src
+Fri, Mar 21, 2025 11:15:22 PM: Listed details of directory: ../src
+Fri, Mar 21, 2025 11:15:50 PM: User started backup for: compress.sh
+Fri, Mar 21, 2025 11:15:56 PM: Backup completed for compress.sh to ../
+Fri, Mar 21, 2025 11:21:14 PM: User started listing details for: ../
+Fri, Mar 21, 2025 11:21:14 PM: Listed details of directory: ../
+Fri, Mar 21, 2025 11:21:23 PM: User started backup for: log_action.s
+Fri, Mar 21, 2025 11:21:26 PM: The file/directory does not exist.
+Fri, Mar 21, 2025 11:22:34 PM: User started backup for: log
+Fri, Mar 21, 2025 11:22:34 PM: The file/directory does not exist.
+Fri, Mar 21, 2025 11:23:22 PM: User started backup for: log
+Fri, Mar 21, 2025 11:23:22 PM: The file/directory does not exist.
+Fri, Mar 21, 2025 11:23:44 PM: User started backup for: log_action.sh
+Fri, Mar 21, 2025 11:23:57 PM: Backup completed for log_action.sh to ../
+Fri, Mar 21, 2025 11:25:17 PM: User started checking disk usage for: .s
+Fri, Mar 21, 2025 11:25:17 PM: Error: The directory does not exist.
+Fri, Mar 21, 2025 11:25:27 PM: User started checking disk usage for: ../src
+Fri, Mar 21, 2025 11:25:27 PM: Disk usage checked for ../src
+Fri, Mar 21, 2025 11:27:49 PM: User started searching for files in: sd
+Fri, Mar 21, 2025 11:27:49 PM: Error: Directory does not exist.
+Fri, Mar 21, 2025 11:28:00 PM: User started searching for files in: compress.sh
+Fri, Mar 21, 2025 11:28:00 PM: Error: Directory does not exist.
+Fri, Mar 21, 2025 11:28:11 PM: User started searching for files in: ../src
+Fri, Mar 21, 2025 11:28:14 PM: Search completed for pattern: compress.sh in 
+Fri, Mar 21, 2025 11:28:54 PM: User started searching for files in: ../src
+Fri, Mar 21, 2025 11:28:55 PM: Search completed for pattern: compress.sh in ../src
+Fri, Mar 21, 2025 11:29:00 PM: User started searching for files in: ../src
+Fri, Mar 21, 2025 11:29:03 PM: Search completed for pattern: *.sh in ../src
+Fri, Mar 21, 2025 11:29:11 PM: User started compression for: compress.sh
+Fri, Mar 21, 2025 11:29:14 PM: Compressed compress.sh to ../.zip completed.
+Fri, Mar 21, 2025 11:29:41 PM: User started compression for: compress.sh
+Fri, Mar 21, 2025 11:29:43 PM: Compressed compress.sh to Hello.zip completed.
+Sat, Mar 22, 2025 12:01:53 AM: User started counting files in: ../src
+Sat, Mar 22, 2025 12:01:53 AM: Count 9 files in ../src
+Sat, Mar 22, 2025 12:02:26 AM: User started counting files in: ../src
+Sat, Mar 22, 2025 12:02:27 AM: Count 9 files in ../src

@@ -32,14 +32,42 @@ Mini_Project/
 ```
 
 ## Getting Started
-Ensure that you have git command on your machine
-- Git
-  - Download it here: [Git](https://git-scm.com/)
-  - After downloading, add git to your environment variable [Add Git to Environment Variable](https://www.answerlookup.com/how-add-git-windows-path-environment-variable)
-  - Use `git --version` to check if you have git downloaded. If it outputs version of git, then you have it on your machine.
+### Requiement
+- Windows: Requires Git Bash, You can use Git for GitBash. Ensure you have downloaded Git
 ```bash
-git version 2.46.2.windows.1
+git --version
 ```
+If it displays version of Git. Then it has been installed. If not, install via [Link](https://git-scm.com/)
+- Linux/macOS: Pre-installed bash in the machine.
+### Installation and Setup
+#### Windows 
+1. Open Git Bash
+2. Clone the repository
+```bash
+git clone https://github.com/Leangchhay1523/OS_Mini_Project.git
+```
+3. Navigate to `src` folder in the Project
+```bash
+cd OS_Mini_Project/src
+```
+4. Execute the program
+```bash
+bash main.sh
+```
+#### Linux/macOS
+1. Open terminal
+2. Clone the repository
+```bash
+git clone https://github.com/Leangchhay1523/OS_Mini_Project.git
+```
+3. Navigate to `src` folder in the Project
+```bash
+cd OS_Mini_Project/src
+```
+4. Execute the program
+```bash
+bash main.sh
+
 ### Setup your Workspace
 Write the below command in the terminal
 - Clone the GitHub repository
