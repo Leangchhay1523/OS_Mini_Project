@@ -4,7 +4,7 @@ source ./log_action.sh
 
 search_file(){
 	echo "Enter the directory path:"  
-    read directory  
+    read -r directory  
 
     log_action "User started searching for files in: $directory"
 
@@ -15,8 +15,8 @@ search_file(){
     fi 
 	
 	echo "Enter filename or extension to search (e.g., *.txt) : "
-	read pattern 
+	read -r pattern 
 
-	find "$directory" -type f -name "$pattern"
+	find "$directory" -type f -iname "*$pattern*" 
     log_action "Search completed for pattern: $pattern in $directory"
 }

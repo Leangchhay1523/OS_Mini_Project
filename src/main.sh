@@ -10,7 +10,7 @@ source ./compress.sh
 
 while true; do
     clear
-    echo "==== File & Directory Manager ===="
+    echo "==== Welcome to the File & Directory Tool ===="
     echo "1) List files"
     echo "2) Backup"
     echo "3) Count Files"
