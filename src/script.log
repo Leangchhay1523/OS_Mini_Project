@@ -70,3 +70,27 @@ Sat Mar 22 10:11:24 +07 2025: User started searching for files in: /Users/typunl
 Sat Mar 22 10:12:00 +07 2025: Search completed for pattern: Data\ Analytics\ Certificate\ glossary in /Users/typunleu/Documents
 Sat Mar 22 10:15:51 +07 2025: User started searching for files in: /Users/typunleu/Documents
 Sat Mar 22 10:16:02 +07 2025: Search completed for pattern: Data Analytics Certificate glossary in /Users/typunleu/Documents
+Thu Mar 27 00:49:19 SEAST 2025: User started listing details for: ../src
+Thu Mar 27 00:49:19 SEAST 2025: Listed details of directory: ../src
+Thu Mar 27 00:50:08 SEAST 2025: User started listing details for: ../src
+Thu Mar 27 00:50:08 SEAST 2025: Listed details of directory: ../src
+Thu Mar 27 00:50:59 SEAST 2025: User started backup for: compress.sh
+Thu Mar 27 00:51:04 SEAST 2025: Backup completed for compress.sh to ../
+Thu Mar 27 00:52:29 SEAST 2025: User started counting files in: ../src
+Thu Mar 27 00:52:29 SEAST 2025: Count 9 files in ../src
+Thu Mar 27 00:53:32 SEAST 2025: User started checking disk usage for: ../src
+Thu Mar 27 00:53:32 SEAST 2025: Disk usage checked for ../src
+Thu Mar 27 00:54:19 SEAST 2025: User started counting files in: ../src
+Thu Mar 27 00:54:19 SEAST 2025: Count 9 files in ../src
+Thu Mar 27 00:54:48 SEAST 2025: User started backup for: 
+Thu Mar 27 00:54:48 SEAST 2025: The file/directory does not exist.
+Thu Mar 27 00:54:52 SEAST 2025: User started counting files in: 
+Thu Mar 27 00:54:52 SEAST 2025: Error: The directory does not exist.
+Thu Mar 27 00:55:13 SEAST 2025: User started checking disk usage for: 
+Thu Mar 27 00:55:13 SEAST 2025: Error: The directory does not exist.
+Thu Mar 27 00:55:35 SEAST 2025: User started compression for: 
+Thu Mar 27 00:55:37 SEAST 2025: Error: The file/directory does not exist.
+Thu Mar 27 00:55:58 SEAST 2025: User started searching for files in: ../src
+Thu Mar 27 00:56:33 SEAST 2025: Search completed for pattern: *.sh in ../src
+Thu Mar 27 00:57:38 SEAST 2025: User started compression for: ../src
+Thu Mar 27 00:57:55 SEAST 2025: Compressed ../src to Source.zip completed.

@@ -4,20 +4,110 @@ The **"File and Directory Management Program"** is a bash script that helps user
 
 ## Key Features
 The bash program contains the following features:
-1. List all files and sub-directories with detailed information of a given directory or file.
-2. Create backups of individual files and entire directories.
-   - Ask user input for the location of individual files or directories
-   - Ask user input for the location of backup
-3. Count the number of files in a directory of a given directory
-4. Display disk usage of a given directory.
-5. Search for a file by name or extension of a given directory.
-6. Compress the given files or directories.
-7. Keep a log file of all actions performed by users in a file called script.log in the same directory where you run the program.
+1. Displaying Menu 
+   **Sample Output**:
+   ```plaintext
+   === Welcome to the File & Directory Tool ===
+   1) List files
+   2) Backup
+   3) Count files
+   4) Disk Usage
+   5) Search Files
+   6) Compress
+   7) Exit
+   Choose an option: 
+   ```
+2. List all files and sub-directories with detailed information of a given directory or file.
+   **Sample Output**:
+   ```plaintext
+   Choose an option: 1
+   Listing files and subdirectories:
+   Enter the directory path: ../src
+   -rwxr-xr-x 1 User 197609  734 Mar 21 23:23 backup.sh
+   -rwxr-xr-x 1 User 197609  567 Mar 21 23:08 compress.sh
+   -rwxr-xr-x 1 User 197609  501 Mar 22 00:02 count_files.sh
+   -rwxr-xr-x 1 User 197609  450 Mar 21 23:13 disk_usage.sh
+   -rwxr-xr-x 1 User 197609  369 Mar 21 23:00 list_details.sh
+   -rwxr-xr-x 1 User 197609   65 Mar 21 23:14 log_action.sh
+   -rwxr-xr-x 1 User 197609 1719 Mar 22 10:43 main.sh
+   -rw-r--r-- 1 User 197609 6342 Mar 27 00:50 script.log
+   -rwxr-xr-x 1 User 197609  562 Mar 22 10:43 search_file.sh
+   Press Enter...
+   ```
+3. Create backups of individual files and entire directories.
+   **Sample Output**:
+   ```plaintext
+   Choose an option: 2
+   Creating backup
+   Enter file/directory to backup: compress.sh
+   Enter backup destination: ../
+   Backup completed to ../
+   Press Enter...
+   ```
+4. Count the number of files in a directory of a given directory
+   **Sample Output**:
+   ```plaintext
+   Choose an option: 3
+   Couting files
+   Enter directory to count files: ../src
+   Total files: 9
+   Press Enter...
+   ```
+5. Display disk usage of a given directory.
+   **Sample Output**:
+   ```plaintext
+   Choose an option: 4
+   Displaying disk usage
+   Enter directory to check disk usage: ../src
+   38k     ../src
+   Press Enter...
+   ```
+6. Search for a file by name or extension of a given directory.
+   **Sample Output**:
+   ```plaintext
+   Choose an option: 5
+   Searchin files
+   Enter directory path: ../src
+   Enter filename or extension to search (e.g., *.txt): *.sh
+   ../src/backup.sh
+   ../src/compress.sh
+   ../src/count_files.sh
+   ../src/disk_usage.sh
+   ../src/list_details.sh
+   ../src/log_action.sh
+   ../src/main.sh
+   ../src/search_file.sh
+   Press Enter...
+   ```
+7. Compress the given files or directories.
+   **Sample Output**:
+   ```plaintext
+   Choose an option: 6
+   Compressing file or directories
+   Enter file or directory to compress: ../src
+   Enter output filename (no extension): Source
+     adding: ../src/ (260 bytes security) (stored 0%)
+     adding: ../src/backup.sh (172 bytes security) (deflated 60%)
+     adding: ../src/compress.sh (172 bytes security) (deflated 53%)
+     adding: ../src/count_files.sh (172 bytes security) (deflated 48%)
+     adding: ../src/disk_usage.sh (172 bytes security) (deflated 51%)
+     adding: ../src/list_details.sh (172 bytes security) (deflated 43%)
+     adding: ../src/log_action.sh (172 bytes security) (stored 0%)
+     adding: ../src/main.sh (172 bytes security) (deflated 73%)
+     adding: ../src/script.log (172 bytes security) (deflated 87%)
+     adding: ../src/search_file.sh (172 bytes security) (deflated 50%)
+   Compressed to Source.zip completed.
+   Press Enter
+   ```
+8. Keep a log file of all actions performed by users in a file called script.log in the same directory where you run the program.
+   ```plaintext
+   Whenever user choose an action to perform, the program will log the user
+   actions to script.log file.
+   ```
 
 ## Project Structure
-```
+```plaintext
 Mini_Project/
-├── public                # Storing assets
 ├── src/                  # Storing source codes
 │   ├── list_details.sh   # 1. List all files and directories
 │   ├── backup.sh         # 2. Backup of individual files and entire directories
@@ -25,11 +115,11 @@ Mini_Project/
 │   ├── disk_uasge.sh     # 4. Display disk usage of a given directory
 │   ├── search_file.sh    # 5. Search for a given file or directory
 │   ├── compress.sh       # 6. Compress a given file or directory
-│   ├── user_log.sh       # 7. Store user performance, write script to store user actions in `script.log`
 │   ├── script.log        # Log file to store all actions of users
 │   └── main.sh           # Main file to run all the scripts
 └── README.md             # Project documentation
 ```
+
 
 ## Getting Started
 ### Requiement
@@ -67,6 +157,7 @@ cd OS_Mini_Project/src
 4. Execute the program
 ```bash
 bash main.sh
+```
 
 ### Setup your Workspace
 Write the below command in the terminal
