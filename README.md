@@ -8,7 +8,7 @@ The bash program contains the following features:
    **Sample Output**:
    ```plaintext
    === Welcome to the File & Directory Tool ===
-   1) List files
+   1) List files and sub-directories
    2) Backup
    3) Count files
    4) Disk Usage
@@ -17,11 +17,11 @@ The bash program contains the following features:
    7) Exit
    Choose an option: 
    ```
-2. List all files and sub-directories with detailed information of a given directory or file.
+2. List all files and sub-directories with detailed information of a given directory.
    **Sample Output**:
    ```plaintext
    Choose an option: 1
-   Listing files and subdirectories:
+   Listing files and sub-directories:
    Enter the directory path: ../src
    -rwxr-xr-x 1 User 197609  734 Mar 21 23:23 backup.sh
    -rwxr-xr-x 1 User 197609  567 Mar 21 23:08 compress.sh
@@ -99,17 +99,13 @@ The bash program contains the following features:
    Compressed to Source.zip completed.
    Press Enter
    ```
-8. Keep a log file of all actions performed by users in a file called script.log in the same directory where you run the program.
-   ```plaintext
-   Whenever user choose an action to perform, the program will log the user
-   actions to script.log file.
-   ```
+8. Keep a log file of all actions performed by users in a file called `script.log` in the same directory where you run the program.
 
 ## Project Structure
 ```plaintext
 Mini_Project/
 ├── src/                  # Storing source codes
-│   ├── list_details.sh   # 1. List all files and directories
+│   ├── list_details.sh   # 1. List all files and sub-directories
 │   ├── backup.sh         # 2. Backup of individual files and entire directories
 │   ├── count_files.sh    # 3. Count number of files in a given directory
 │   ├── disk_uasge.sh     # 4. Display disk usage of a given directory

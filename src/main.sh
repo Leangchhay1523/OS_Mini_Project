@@ -11,7 +11,7 @@ source ./compress.sh
 while true; do
     clear
     echo "==== Welcome to the File & Directory Tool ===="
-    echo "1) List files"
+    echo "1) List files and sub-directories"
     echo "2) Backup"
     echo "3) Count Files"
     echo "4) Disk Usage"
@@ -24,7 +24,7 @@ while true; do
 
     case $user_choice in 
         1) 
-            echo "Listing files and subdirectories"
+            echo "Listing files and sub-directories"
             list_files        
             # Pause
             echo "Press Enter..."
