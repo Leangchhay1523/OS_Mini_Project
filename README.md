@@ -4,7 +4,7 @@ The **"File and Directory Management Program"** is a bash script that helps user
 
 ## Key Features
 The bash program contains the following features:
-1. Displaying Menu 
+1. Displaying Menu <br>
    **Sample Output**:
    ```plaintext
    === Welcome to the File & Directory Tool ===
@@ -34,7 +34,7 @@ The bash program contains the following features:
    -rwxr-xr-x 1 User 197609  562 Mar 22 10:43 search_file.sh
    Press Enter...
    ```
-3. Create backups of individual files and entire directories.
+3. Create backups of individual files and entire directories. <br>
    **Sample Output**:
    ```plaintext
    Choose an option: 2
@@ -44,7 +44,7 @@ The bash program contains the following features:
    Backup completed to ../
    Press Enter...
    ```
-4. Count the number of files in a directory of a given directory
+4. Count the number of files in a directory of a given directory. <br>
    **Sample Output**:
    ```plaintext
    Choose an option: 3
@@ -53,7 +53,7 @@ The bash program contains the following features:
    Total files: 9
    Press Enter...
    ```
-5. Display disk usage of a given directory.
+5. Display disk usage of a given directory. <br>
    **Sample Output**:
    ```plaintext
    Choose an option: 4
@@ -62,7 +62,7 @@ The bash program contains the following features:
    38k     ../src
    Press Enter...
    ```
-6. Search for a file by name or extension of a given directory.
+6. Search for a file by name or extension of a given directory. <br>
    **Sample Output**:
    ```plaintext
    Choose an option: 5
@@ -79,7 +79,7 @@ The bash program contains the following features:
    ../src/search_file.sh
    Press Enter...
    ```
-7. Compress the given files or directories.
+7. Compress the given files or directories. <br>
    **Sample Output**:
    ```plaintext
    Choose an option: 6
@@ -115,7 +115,6 @@ Mini_Project/
 │   └── main.sh           # Main file to run all the scripts
 └── README.md             # Project documentation
 ```
-
 
 ## Getting Started
 ### Requiement
